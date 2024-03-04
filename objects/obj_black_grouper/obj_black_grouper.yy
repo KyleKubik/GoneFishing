@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_white_mullet",
+  "name": "obj_black_grouper",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_white_mullet",
-    "path": "sprites/spr_white_mullet/spr_white_mullet.yy",
+    "name": "spr_black_grouper",
+    "path": "sprites/spr_black_grouper/spr_black_grouper.yy",
   },
   "spriteMaskId": null,
   "visible": true,

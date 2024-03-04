@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 casting = false;
+did_cast = false;
 cast_power = 0;
 max_cast_power = 50;
 cast_power_sign = 1;
