@@ -3,9 +3,12 @@
 
 xspd = 0
 yspd = 0
-grav = 0.4
+grav = 0.22
 bouancy = 0.0
 
 inst_bobber = pointer_null
 
 line_len = 50
+
+has_fish = false;
+inst_fish = pointer_null

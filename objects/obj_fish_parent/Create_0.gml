@@ -7,3 +7,5 @@ sight = 30;
 hunger = 100;
 destX=x;
 destY=y;
+hooked = false;
+hooked_spd_mod = 3;

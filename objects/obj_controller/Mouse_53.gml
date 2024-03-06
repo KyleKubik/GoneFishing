@@ -7,6 +7,10 @@ with(obj_rod){
 	image_speed = 0;	
 }
 if(did_cast){
+	if(obj_rod._inst_hook.has_fish){
+		instance_destroy(obj_rod._inst_hook.inst_fish);
+		obj_rod._inst_hook.has_fish = false;
+	}
 	did_cast = false;
 	with(obj_rod){
 		instance_destroy(_inst_hook);
