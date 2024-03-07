@@ -10,3 +10,9 @@ if(_inst_bobber != pointer_null){
 		draw_line(_inst_bobber.x,_inst_bobber.y,_inst_hook.x,_inst_hook.y-2);	
 	}
 }
+
+if(displaying_fish){
+	if(caught_fish != pointer_null){
+		draw_line(x+31,y-31,caught_fish.x,caught_fish.y);	
+	}
+}

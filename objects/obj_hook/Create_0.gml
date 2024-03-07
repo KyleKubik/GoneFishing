@@ -3,7 +3,7 @@
 
 xspd = 0
 yspd = 0
-grav = 0.22
+grav = 0.11
 bouancy = 0.0
 
 inst_bobber = pointer_null

@@ -3,5 +3,5 @@
 
 xspd = 0
 yspd = 0
-grav = 0.2
+grav = 0.1
 bouancy = 0.4

@@ -9,3 +9,6 @@ cast_power = 0;
 
 _inst_bobber = pointer_null;
 _inst_hook = pointer_null;
+
+caught_fish = pointer_null;
+displaying_fish = false;

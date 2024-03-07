@@ -8,4 +8,10 @@ hunger = 100;
 destX=x;
 destY=y;
 hooked = false;
-hooked_spd_mod = 3;
+hooked_spd_mod = 5;
+
+displayed = false;
+
+
+yspd = 0
+grav = 0.2
