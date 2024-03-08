@@ -3,7 +3,7 @@
 
 if(displayed){
 	
-	image_xscale = 1;
+	image_xscale = im_scale;
 	image_angle = -90;
 	if(distance_to_point(destX,destY) < 0.1){
 		speed = 0;
@@ -26,9 +26,9 @@ if(displayed){
 	move_towards_point(destX,destY,spd);
 	}
 	if(x<destX){
-		image_xscale = -1;	
+		image_xscale = -im_scale;	
 	}else{
-		image_xscale = 1;
+		image_xscale = im_scale;
 	}
 
 	var xmin = hooked ? -1 : -20;

@@ -10,6 +10,10 @@ destY=y;
 hooked = false;
 hooked_spd_mod = 5;
 
+im_scale = random_range(0.8,1.2);
+image_xscale = im_scale;
+image_yscale = im_scale;
+
 displayed = false;
 
 
